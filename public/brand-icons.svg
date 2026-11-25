@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-github" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.2-3.37-1.2-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" />
+  </symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M5 3.5a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4ZM3.2 9.4h3.6V21H3.2V9.4Zm6 0h3.45v1.58h.05a3.8 3.8 0 0 1 3.42-1.88c3.65 0 4.33 2.4 4.33 5.53V21h-3.6v-5.66c0-1.35-.03-3.09-1.88-3.09-1.88 0-2.17 1.47-2.17 2.99V21H9.2V9.4Z" />
+  </symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.7 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8L17.7 3Zm-1.1 16.1h1.7L7.5 4.8H5.7l10.9 14.3Z" />
+  </symbol>
+  <symbol id="i-react" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+    <circle cx="12" cy="12" r="1.8" fill="currentColor" stroke="none" />
+    <ellipse cx="12" cy="12" rx="10" ry="4.2" />
+    <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(60 12 12)" />
+    <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(120 12 12)" />
+  </symbol>
+  <symbol id="i-node" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+    <path d="m12 2.6 8.1 4.7v9.4L12 21.4l-8.1-4.7V7.3L12 2.6Z" />
+    <path d="M9.4 14.4c0 1.2 1.1 1.9 2.6 1.9 1.4 0 2.5-.6 2.5-1.7 0-1-.9-1.4-2.3-1.7-1.4-.3-2.6-.7-2.6-2 0-1.2 1.1-1.9 2.5-1.9 1.3 0 2.3.5 2.4 1.5" stroke-width="1.3" />
+  </symbol>
+  <symbol id="i-mongo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M12 2.5c2.6 3.4 4.4 6.6 4.4 9.4a4.4 4.4 0 0 1-8.8 0c0-2.8 1.8-6 4.4-9.4Z" />
+    <path d="M12 8.5V21" />
+  </symbol>
+  <symbol id="i-tailwind" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 12.5c1.2-4 3.9-6 7-6 2.6 0 3.6 1.7 5.1 2.7.9.6 1.8.9 3.1.7" />
+    <path d="M3 17.5c1.2-4 3.9-6 7-6 2.6 0 3.6 1.7 5.1 2.7.9.6 1.8.9 3.1.7" />
+  </symbol>
+  <symbol id="i-git" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="7" cy="5.5" r="2.5" />
+    <circle cx="7" cy="18.5" r="2.5" />
+    <circle cx="17" cy="9" r="2.5" />
+    <path d="M7 8v8M17 11.5c0 3-3.5 3-5 4.5" />
+  </symbol>
+  <symbol id="i-dots" viewBox="0 0 24 24" fill="currentColor">
+    <circle cx="6" cy="12" r="1.7" />
+    <circle cx="12" cy="12" r="1.7" />
+    <circle cx="18" cy="12" r="1.7" />
+  </symbol>
+</svg>

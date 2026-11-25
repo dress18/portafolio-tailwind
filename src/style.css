@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-ink: #17130f;
+  --color-ink-soft: #3b342d;
+  --color-muted: #71675d;
+  --color-brand: #f2681f;
+  --color-brand-dark: #d9530f;
+  --color-cream: #fffaf5;
+  --color-sand: #fdf4ec;
+  --color-line: #ece2d8;
+
+  --shadow-soft: 0 18px 40px -24px rgb(23 19 15 / 0.35);
+  --shadow-brand: 0 12px 26px -14px rgb(242 104 31 / 0.85);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--color-brand) 25%, transparent);
+    color: var(--color-ink);
+  }
+
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.02em;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@layer components {
+  .icon {
+    font-family: "Material Symbols Rounded", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-variation-settings: "FILL" 0, "wght" 350, "GRAD" 0, "opsz" 24;
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+  }
+}
+

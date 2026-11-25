@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portafolio de Andrés Gómez, desarrollador full-stack y coder en Riwi. Productos digitales simples, limpios y escalables." />
+  <meta name="theme-color" content="#fffaf5" />
+  <title>Andrés Gómez — Desarrollador Full-Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" rel="stylesheet" />
+  <link href="/src/style.css" rel="stylesheet" />
+</head>
+
+<body class="bg-cream text-ink">
+  <!-- ================= HEADER ================= -->
+  <header class="sticky top-0 z-50 border-b border-line/60 bg-cream/90 backdrop-blur-md">
+    <div class="mx-auto flex h-16 w-full max-w-280 items-center justify-between px-5 sm:h-18 sm:px-8 lg:h-20 lg:px-6">
+      <a href="#inicio" class="text-6.5 font-extrabold tracking-tight lg:text-[28px]">
+        Ag<span class="text-brand">.</span>
+      </a>
+
+      <!-- Navegación escritorio -->
+      <nav class="hidden items-center gap-8 lg:flex" aria-label="Principal">
+        <a href="#inicio" class="relative text-sm font-semibold text-brand">
+          Inicio
+          <span class="absolute -bottom-2 left-1/2 h-0.5 w-5 -translate-x-1/2 rounded-full bg-brand"></span>
+        </a>
+        <a href="#sobre-mi" class="text-sm font-medium text-ink-soft transition hover:text-brand">Sobre mí</a>
+        <a href="#habilidades" class="text-sm font-medium text-ink-soft transition hover:text-brand">Habilidades</a>
+        <a href="#proyectos" class="text-sm font-medium text-ink-soft transition hover:text-brand">Proyectos</a>
+        <a href="#experiencia" class="text-sm font-medium text-ink-soft transition hover:text-brand">Experiencia</a>
+        <a href="#contacto" class="text-sm font-medium text-ink-soft transition hover:text-brand">Contacto</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a href="#contacto"
+          class="hidden items-center gap-2 rounded-lg bg-ink px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition hover:bg-brand sm:inline-flex">
+          Hablemos
+          <span class="icon text-[18px]" aria-hidden="true">arrow_forward</span>
+        </a>
+
+        <!-- Menú móvil -->
+        <details class="group relative lg:hidden">
+          <summary
+            class="grid size-10 cursor-pointer list-none place-items-center rounded-lg border border-line bg-white/70 text-ink transition hover:border-brand/40 hover:text-brand">
+            <span class="sr-only">Abrir menú</span>
+            <span class="icon text-[22px] group-open:hidden" aria-hidden="true">menu</span>
+            <span class="icon hidden text-[22px] group-open:inline-flex" aria-hidden="true">close</span>
+          </summary>
+          <div class="absolute right-0 top-12 w-56 rounded-2xl border border-line bg-cream p-2 shadow-soft">
+            <a href="#inicio" class="block rounded-lg px-3 py-2.5 text-sm font-semibold text-brand">Inicio</a>
+            <a href="#sobre-mi" class="block rounded-lg px-3 py-2.5 text-sm font-medium text-ink-soft hover:bg-sand">Sobre mí</a>
+            <a href="#habilidades" class="block rounded-lg px-3 py-2.5 text-sm font-medium text-ink-soft hover:bg-sand">Habilidades</a>
+            <a href="#proyectos" class="block rounded-lg px-3 py-2.5 text-sm font-medium text-ink-soft hover:bg-sand">Proyectos</a>
+            <a href="#experiencia" class="block rounded-lg px-3 py-2.5 text-sm font-medium text-ink-soft hover:bg-sand">Experiencia</a>
+            <a href="#contacto" class="block rounded-lg px-3 py-2.5 text-sm font-medium text-ink-soft hover:bg-sand">Contacto</a>
+          </div>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="scroll-mt-24 overflow-hidden">
+      <div
+        class="mx-auto grid w-full max-w-280 items-center gap-10 px-5 pb-12 pt-10 sm:px-8 sm:pt-14 lg:grid-cols-2 lg:gap-4 lg:px-6 lg:pb-20 lg:pt-16">
+        <div>
+          <div class="inline-flex flex-col">
+            <span class="text-sm font-semibold text-ink-soft">Hola, soy</span>
+            <svg class="h-1.5 w-14 text-brand" viewBox="0 0 60 8" fill="none">
+              <path d="M2 5.5C14 2.5 30 1.5 58 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+
+          <h1 class="mt-3 text-[40px] font-extrabold leading-[1.05] sm:text-5xl lg:text-[64px]">
+            Andrés <span class="text-brand">Gómez</span>
+          </h1>
+
+          <p class="mt-4 text-[15px] font-semibold text-ink-soft sm:text-base lg:text-lg">
+            Desarrollador Full-Stack &amp; Coder en Riwi
+          </p>
+
+          <p class="mt-4 max-w-107.5 text-[15px] leading-relaxed text-muted lg:mt-5 lg:text-base">
+            Construyo productos digitales que resuelven problemas reales y generan impacto. Del concepto al
+            despliegue, transformo retos complejos en soluciones simples y elegantes.
+          </p>
+
+          <div class="mt-7 flex flex-wrap items-center gap-3 lg:mt-8">
+            <a href="#proyectos"
+              class="inline-flex items-center gap-2 rounded-lg bg-brand px-5 py-3 text-sm font-semibold text-white shadow-brand transition hover:bg-brand-dark">
+              Ver mi trabajo
+              <span class="icon text-[18px]" aria-hidden="true">arrow_forward</span>
+            </a>
+            <a href="#contacto"
+              class="inline-flex items-center gap-2 rounded-lg border border-line bg-white/80 px-5 py-3 text-sm font-semibold text-ink transition hover:border-brand/40 hover:text-brand">
+              Descargar CV
+              <span class="icon text-[18px]" aria-hidden="true">download</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-95 sm:max-w-md lg:max-w-none">
+          <svg class="absolute -top-16 left-2 z-10 hidden w-20 text-ink lg:block" viewBox="0 0 140 210" fill="none"
+            stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M70 0v64" />
+            <path d="M32 104 70 64l38 40H32Z" />
+            <path d="M32 104h76" />
+            <circle cx="70" cy="118" r="10" class="text-brand/20" fill="currentColor" stroke="none" />
+            <path d="M63 118a7 7 0 0 0 14 0" class="text-brand" stroke="currentColor" />
+            <path d="M70 128v8" class="text-brand" stroke="currentColor" />
+            <path d="M38 148l-9 9M102 148l9 9M70 148v13" class="text-brand" stroke="currentColor" />
+          </svg>
+
+          <svg class="absolute top-1 right-2 z-10 hidden w-28 text-ink lg:block" viewBox="0 0 180 80" fill="none"
+            stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 62h164" />
+            <path d="M20 62V40h10v22M34 62V34h8v28M46 62V46h9v16" />
+            <path d="M120 62V48h20v14" />
+            <path d="M130 48c-6-9-1-16 4-18 5 5 4 12-1 15M138 48c4-8 10-10 13-7-2 5-6 7-11 7" />
+          </svg>
+
+          <div class="pointer-events-none absolute left-1/2 top-1/2 -z-10 aspect-square w-[85%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand/6"></div>
+
+          <img src="src/assets/hero.webp" alt="Ilustración de dos personas colaborando con documentos y gráficas"
+            class="relative w-full mix-blend-multiply" width="1000" height="750" />
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="mx-auto w-full max-w-280 scroll-mt-24 px-5 sm:px-8 lg:px-6">
+      <div
+        class="grid items-center gap-8 border-t border-line/80 py-12 sm:gap-10 sm:py-16 lg:grid-cols-2 lg:gap-16 lg:py-20">
+        <div class="relative mx-auto -mb-2 w-full max-w-62.5 sm:max-w-[320px] lg:max-w-92.5">
+          <img src="src/assets/about-me.webp"
+            alt="Ilustración de una persona trabajando con una taza de café y una pila de libros"
+            class="w-full mix-blend-multiply" width="1152" height="1660" loading="lazy" decoding="async" />
+        </div>
+
+        <div>
+          <h2 class="text-6.5 font-extrabold sm:text-3xl lg:text-[32px]">Sobre mí</h2>
+          <span class="mt-2 block h-0.75 w-8 rounded-full bg-brand"></span>
+
+          <p class="mt-5 text-[15px] leading-relaxed text-muted lg:mt-6 lg:text-base">
+            Me apasiona crear soluciones limpias, eficientes y escalables con grandes experiencias de usuario.
+            Disfruto trabajar con tecnologías que impulsan la web hacia adelante y con equipos que cuidan el detalle.
+          </p>
+
+          <ul class="mt-7 grid grid-cols-2 gap-x-4 gap-y-4 sm:gap-x-6 lg:mt-8 lg:gap-y-5">
+            <li class="flex items-center gap-2.5 text-sm font-medium text-ink-soft">
+              <span class="icon shrink-0 text-[20px] text-brand" aria-hidden="true">lightbulb</span>
+              Resolución de problemas
+            </li>
+            <li class="flex items-center gap-2.5 text-sm font-medium text-ink-soft">
+              <span class="icon shrink-0 text-[20px] text-brand" aria-hidden="true">target</span>
+              Orientado a detalles
+            </li>
+            <li class="flex items-center gap-2.5 text-sm font-medium text-ink-soft">
+              <span class="icon shrink-0 text-[20px] text-brand" aria-hidden="true">code</span>
+              Código limpio
+            </li>
+            <li class="flex items-center gap-2.5 text-sm font-medium text-ink-soft">
+              <span class="icon shrink-0 text-[20px] text-brand" aria-hidden="true">menu_book</span>
+              Aprendizaje constante
+            </li>
+            <li class="flex items-center gap-2.5 text-sm font-medium text-ink-soft">
+              <span class="icon shrink-0 text-[20px] text-brand" aria-hidden="true">groups</span>
+              Trabajo en equipo
+            </li>
+            <li class="flex items-center gap-2.5 text-sm font-medium text-ink-soft">
+              <span class="icon shrink-0 text-[20px] text-brand" aria-hidden="true">auto_awesome</span>
+              Mente curiosa
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="mx-auto w-full max-w-[1120px] scroll-mt-24 px-5 sm:px-8 lg:px-6">
+      <div class="border-t border-line/80 py-12 sm:py-16 lg:py-20">
+        <div class="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h2 class="text-[26px] font-extrabold sm:text-3xl lg:text-[32px]">Habilidades y tecnologías</h2>
+            <span class="mt-2 block h-[3px] w-8 rounded-full bg-brand"></span>
+          </div>
+          <p class="max-w-[280px] text-[13px] leading-relaxed text-muted lg:max-w-sm lg:text-sm">
+            Herramientas con las que construyo productos de la idea al despliegue.
+          </p>
+        </div>
+
+        <ul class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:mt-10">
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Lenguaje</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <span class="grid size-7 place-items-center rounded-[5px] border-[1.5px] border-ink/70 text-[10px] font-extrabold leading-none transition group-hover:border-brand group-hover:text-brand lg:size-8 lg:text-[11px]">JS</span>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">JavaScript</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">Lógica e interacción en el cliente.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Lenguaje</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <span class="grid size-7 place-items-center rounded-[5px] border-[1.5px] border-ink/70 text-[10px] font-extrabold leading-none transition group-hover:border-brand group-hover:text-brand lg:size-8 lg:text-[11px]">TS</span>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">TypeScript</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">Tipado estático y código seguro.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Librería</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <svg class="size-7 lg:size-8 text-ink transition group-hover:text-brand"><use href="/brand-icons.svg#i-react" /></svg>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">React.js</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">Interfaces basadas en componentes.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Framework</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <span class="grid size-7 place-items-center rounded-full border-[1.5px] border-ink/70 text-[11px] font-extrabold leading-none transition group-hover:border-brand group-hover:text-brand lg:size-8 lg:text-xs">N</span>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">Next.js</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">Aplicaciones full-stack con SSR.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Runtime</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <svg class="size-7 lg:size-8 text-ink transition group-hover:text-brand"><use href="/brand-icons.svg#i-node" /></svg>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">Node.js</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">APIs y servicios backend.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Base de datos</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <svg class="size-7 lg:size-8 text-ink transition group-hover:text-brand"><use href="/brand-icons.svg#i-mongo" /></svg>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">MongoDB</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">Datos flexibles y escalables.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Estilos</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <svg class="size-7 lg:size-8 text-ink transition group-hover:text-brand"><use href="/brand-icons.svg#i-tailwind" /></svg>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">Tailwind CSS</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">UI rápida y consistente.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Herramientas</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <svg class="size-7 lg:size-8 text-ink transition group-hover:text-brand"><use href="/brand-icons.svg#i-git" /></svg>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">Git & GitHub</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">Versiones y trabajo colaborativo.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+          <li class="group relative overflow-hidden rounded-2xl border border-line bg-white/70 p-4 transition duration-200 hover:-translate-y-1 hover:border-brand/40 hover:bg-white hover:shadow-soft lg:p-5 col-span-2 sm:col-span-1 border-dashed">
+            <span class="absolute right-4 top-4 hidden text-[10px] font-semibold uppercase tracking-[0.14em] text-muted/60 sm:block lg:right-5 lg:top-5">Ecosistema</span>
+            <span class="grid size-12 place-items-center rounded-xl bg-sand ring-1 ring-line/60 transition group-hover:bg-brand/10 group-hover:ring-brand/20 lg:size-14">
+              <svg class="size-7 lg:size-8 text-ink transition group-hover:text-brand"><use href="/brand-icons.svg#i-dots" /></svg>
+            </span>
+            <h3 class="mt-4 text-sm font-bold lg:text-[15px]">Más herramientas</h3>
+            <p class="mt-1 text-[11px] leading-relaxed text-muted lg:text-xs">Figma, Vite, Postman y más.</p>
+            <span class="absolute inset-x-0 bottom-0 h-0.5 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="proyectos" class="mx-auto w-full max-w-280 scroll-mt-24 px-5 sm:px-8 lg:px-6">
+      <div class="border-t border-line/80 py-12 sm:py-16 lg:py-20">
+        <div class="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 class="text-6.5 font-extrabold sm:text-3xl lg:text-[32px]">Proyectos destacados</h2>
+            <span class="mt-2 block h-0.75 w-8 rounded-full bg-brand"></span>
+          </div>
+          <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold text-ink transition hover:text-brand">
+            Ver todos los proyectos
+            <span class="icon text-[16px]" aria-hidden="true">north_east</span>
+          </a>
+        </div>
+
+        <div class="mt-7 grid gap-4 sm:grid-cols-2 lg:mt-9 lg:grid-cols-3 lg:gap-5">
+          <article
+            class="group overflow-hidden rounded-2xl border border-line bg-white/80 transition hover:-translate-y-1 hover:shadow-soft">
+            <div class="relative flex h-44 items-center justify-center overflow-hidden bg-sand p-5">
+              <div
+                class="w-full max-w-56.25 rounded-lg bg-white p-2.5 shadow-[0_12px_26px_-16px_rgba(23,19,15,.55)] ring-1 ring-line">
+                <div class="flex items-center gap-1">
+                  <span class="size-1.5 rounded-full bg-line"></span>
+                  <span class="size-1.5 rounded-full bg-line"></span>
+                  <span class="size-1.5 rounded-full bg-line"></span>
+                  <span class="ml-auto h-1 w-8 rounded-full bg-line"></span>
+                </div>
+                <div class="mt-2.5 flex gap-2">
+                  <div class="w-10 rounded-md bg-ink p-1.5">
+                    <span class="block h-1 w-4 rounded-full bg-brand"></span>
+                    <span class="mt-1.5 block h-1 w-5 rounded-full bg-white/20"></span>
+                    <span class="mt-1 block h-1 w-4 rounded-full bg-white/20"></span>
+                    <span class="mt-1 block h-1 w-5 rounded-full bg-white/20"></span>
+                  </div>
+                  <div class="flex-1">
+                    <div class="h-1.5 w-2/3 rounded-full bg-line"></div>
+                    <div class="mt-1.5 grid grid-cols-2 gap-1.5">
+                      <div class="h-7 rounded bg-sand"></div>
+                      <div class="h-7 rounded bg-sand"></div>
+                      <div class="col-span-2 h-9 rounded bg-brand/10"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:p-5">
+              <h3 class="flex items-center gap-1.5 text-[15px] font-bold lg:text-base">
+                BigBrains
+                <span class="icon text-[14px] text-brand" aria-hidden="true">north_east</span>
+              </h3>
+              <p class="mt-1.5 text-[13px] leading-relaxed text-muted lg:text-sm">
+                Plataforma de aprendizaje con cursos interactivos, analítica y pagos.
+              </p>
+              <p class="mt-3 text-[11px] font-medium text-muted lg:text-xs">Next.js · TypeScript · Tailwind</p>
+            </div>
+          </article>
+          <article
+            class="group overflow-hidden rounded-2xl border border-line bg-white/80 transition hover:-translate-y-1 hover:shadow-soft">
+            <div class="relative flex h-44 items-center justify-center overflow-hidden bg-sand p-5">
+              <div
+                class="w-full max-w-56.25 rounded-lg bg-white p-2.5 shadow-[0_12px_26px_-16px_rgba(23,19,15,.55)] ring-1 ring-line">
+                <div class="flex items-center gap-1">
+                  <span class="size-1.5 rounded-full bg-line"></span>
+                  <span class="size-1.5 rounded-full bg-line"></span>
+                  <span class="size-1.5 rounded-full bg-line"></span>
+                  <span class="ml-auto h-1 w-8 rounded-full bg-line"></span>
+                </div>
+                <div class="mt-2.5">
+                  <div class="h-1.5 w-1/2 rounded-full bg-line"></div>
+                  <div class="mt-1 h-1 w-1/3 rounded-full bg-line"></div>
+                </div>
+                <div class="mt-2.5 flex items-end gap-1.5 rounded bg-sand/70 p-2">
+                  <span class="h-4 w-2.5 rounded-sm bg-brand/30"></span>
+                  <span class="h-7 w-2.5 rounded-sm bg-brand/50"></span>
+                  <span class="h-5 w-2.5 rounded-sm bg-brand/30"></span>
+                  <span class="h-9 w-2.5 rounded-sm bg-brand/70"></span>
+                  <span class="h-6 w-2.5 rounded-sm bg-brand/40"></span>
+                  <span class="h-10 w-2.5 rounded-sm bg-brand"></span>
+                </div>
+                <div class="mt-2 space-y-1">
+                  <div class="h-1 w-full rounded-full bg-line"></div>
+                  <div class="h-1 w-4/5 rounded-full bg-line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:p-5">
+              <h3 class="flex items-center gap-1.5 text-[15px] font-bold lg:text-base">
+                BoardInsight Colombia
+                <span class="icon text-[14px] text-brand" aria-hidden="true">north_east</span>
+              </h3>
+              <p class="mt-1.5 text-[13px] leading-relaxed text-muted lg:text-sm">
+                Panel de visualización de datos con resultados y estadísticas (2016–2025).
+              </p>
+              <p class="mt-3 text-[11px] font-medium text-muted lg:text-xs">Next.js · Recharts · Node.js</p>
+            </div>
+          </article>
+          <article
+            class="group overflow-hidden rounded-2xl border border-line bg-white/80 transition hover:-translate-y-1 hover:shadow-soft">
+            <div class="relative flex h-44 items-center justify-center overflow-hidden bg-sand p-5">
+              <div
+                class="flex h-33 w-21.5 flex-col rounded-[14px] border-2 border-ink/70 bg-white p-1.5 shadow-[0_12px_26px_-16px_rgba(23,19,15,.55)]">
+                <div class="mx-auto h-1 w-6 rounded-full bg-line"></div>
+                <div class="mt-2 rounded-md bg-brand/10 p-1.5">
+                  <span class="mx-auto block size-4 rounded-full border-2 border-brand"></span>
+                </div>
+                <div class="mt-2 space-y-1">
+                  <div class="h-1 w-full rounded-full bg-line"></div>
+                  <div class="h-1 w-4/5 rounded-full bg-line"></div>
+                  <div class="h-1 w-3/5 rounded-full bg-line"></div>
+                </div>
+                <div class="mt-2 grid grid-cols-2 gap-1">
+                  <div class="h-6 rounded bg-sand"></div>
+                  <div class="h-6 rounded bg-sand"></div>
+                </div>
+                <div class="mt-auto h-4 rounded bg-brand"></div>
+              </div>
+            </div>
+            <div class="p-4 lg:p-5">
+              <h3 class="flex items-center gap-1.5 text-[15px] font-bold lg:text-base">
+                PGS Learning App
+                <span class="icon text-[14px] text-brand" aria-hidden="true">north_east</span>
+              </h3>
+              <p class="mt-1.5 text-[13px] leading-relaxed text-muted lg:text-sm">
+                Aplicación de aprendizaje segura con protección DRM y acceso por roles.
+              </p>
+              <p class="mt-3 text-[11px] font-medium text-muted lg:text-xs">Next.js · MongoDB · Stripe</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="mx-auto w-full max-w-280 scroll-mt-24 px-5 sm:px-8 lg:px-6">
+      <div class="border-t border-line/80 py-12 sm:py-16 lg:py-20">
+        <div>
+          <h2 class="text-6.5 font-extrabold sm:text-3xl lg:text-[32px]">Experiencia</h2>
+          <span class="mt-2 block h-0.75 w-8 rounded-full bg-brand"></span>
+        </div>
+
+        <div class="relative mt-8 lg:mt-10">
+          <span
+            class="pointer-events-none absolute inset-x-20 top-6.5 hidden border-t border-dashed border-line lg:block"></span>
+
+          <div class="relative grid gap-8 sm:gap-10 lg:grid-cols-3 lg:gap-8">
+            <article class="flex items-start gap-4">
+              <span
+                class="grid size-13 shrink-0 place-items-center rounded-full bg-sand text-brand ring-1 ring-brand/10">
+                <span class="icon text-[26px]" aria-hidden="true">public</span>
+              </span>
+              <div>
+                <p class="text-[11px] font-semibold tracking-wide text-brand">2024 – Presente</p>
+                <h3 class="mt-1 text-[15px] font-bold lg:text-base">Desarrollador Web</h3>
+                <p class="text-[13px] font-semibold text-brand">CodeWings</p>
+                <p class="mt-1.5 text-[13px] leading-relaxed text-muted">
+                  Construyo aplicaciones web escalables y paneles administrativos para clientes.
+                </p>
+              </div>
+            </article>
+            <article class="flex items-start gap-4">
+              <span
+                class="grid size-13 shrink-0 place-items-center rounded-full bg-sand text-brand ring-1 ring-brand/10">
+                <span class="icon text-[26px]" aria-hidden="true">laptop_mac</span>
+              </span>
+              <div>
+                <p class="text-[11px] font-semibold tracking-wide text-brand">2023 – 2024</p>
+                <h3 class="mt-1 text-[15px] font-bold lg:text-base">Full Stack Intern</h3>
+                <p class="text-[13px] font-semibold text-brand">Proyectos varios</p>
+                <p class="mt-1.5 text-[13px] leading-relaxed text-muted">
+                  Trabajé en proyectos reales y APIs usando el stack MERN.
+                </p>
+              </div>
+            </article>
+            <article class="flex items-start gap-4">
+              <span
+                class="grid size-13 shrink-0 place-items-center rounded-full bg-sand text-brand ring-1 ring-brand/10">
+                <span class="icon text-[26px]" aria-hidden="true">person</span>
+              </span>
+              <div>
+                <p class="text-[11px] font-semibold tracking-wide text-brand">2022 – 2023</p>
+                <h3 class="mt-1 text-[15px] font-bold lg:text-base">Desarrollador Freelance</h3>
+                <p class="text-[13px] font-semibold text-brand">Independiente</p>
+                <p class="mt-1.5 text-[13px] leading-relaxed text-muted">
+                  Entregué sitios web y soluciones digitales para startups y negocios.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" class="mx-auto w-full max-w-280 scroll-mt-24 px-5 sm:px-8 lg:px-6">
+      <div class="border-t border-line/80 py-12 sm:py-16 lg:py-20">
+        <div>
+          <h2 class="text-6.5 font-extrabold sm:text-3xl lg:text-[32px]">Mi proceso</h2>
+          <span class="mt-2 block h-0.75 w-8 rounded-full bg-brand"></span>
+        </div>
+
+        <div class="relative mt-8 lg:mt-10">
+          <span
+            class="pointer-events-none absolute inset-x-16 top-8 hidden border-t border-dashed border-line lg:block"></span>
+
+          <ol class="relative grid gap-7 sm:gap-8 lg:grid-cols-5 lg:gap-6">
+            <li class="flex items-start gap-4 text-left lg:block lg:text-center">
+              <span class="relative z-10 grid size-16 shrink-0 place-items-center rounded-full bg-sand text-brand ring-1 ring-brand/10">
+                <span class="icon text-[26px]" aria-hidden="true">search</span>
+              </span>
+              <div class="lg:mt-5">
+                <p class="text-[11px] font-bold tracking-[0.18em] text-brand">01</p>
+                <h3 class="mt-1 text-sm font-bold lg:text-[15px]">Descubre</h3>
+                <p class="mt-1 text-xs leading-relaxed text-muted lg:mx-auto lg:max-w-37.5">
+                  Entiendo el problema a fondo.
+                </p>
+              </div>
+            </li>
+
+            <li class="flex items-start gap-4 text-left lg:block lg:text-center">
+              <span class="relative z-10 grid size-16 shrink-0 place-items-center rounded-full bg-sand text-brand ring-1 ring-brand/10">
+                <span class="icon text-[26px]" aria-hidden="true">draw</span>
+              </span>
+              <div class="lg:mt-5">
+                <p class="text-[11px] font-bold tracking-[0.18em] text-brand">02</p>
+                <h3 class="mt-1 text-sm font-bold lg:text-[15px]">Diseña</h3>
+                <p class="mt-1 text-xs leading-relaxed text-muted lg:mx-auto lg:max-w-37.5">
+                  Planifico y creo soluciones simples.
+                </p>
+              </div>
+            </li>
+
+            <li class="flex items-start gap-4 text-left lg:block lg:text-center">
+              <span class="relative z-10 grid size-16 shrink-0 place-items-center rounded-full bg-sand text-brand ring-1 ring-brand/10">
+                <span class="icon text-[26px]" aria-hidden="true">code</span>
+              </span>
+              <div class="lg:mt-5">
+                <p class="text-[11px] font-bold tracking-[0.18em] text-brand">03</p>
+                <h3 class="mt-1 text-sm font-bold lg:text-[15px]">Desarrolla</h3>
+                <p class="mt-1 text-xs leading-relaxed text-muted lg:mx-auto lg:max-w-37.5">
+                  Escribo código limpio y construyo.
+                </p>
+              </div>
+            </li>
+
+            <li class="flex items-start gap-4 text-left lg:block lg:text-center">
+              <span class="relative z-10 grid size-16 shrink-0 place-items-center rounded-full bg-sand text-brand ring-1 ring-brand/10">
+                <span class="icon text-[26px]" aria-hidden="true">rocket_launch</span>
+              </span>
+              <div class="lg:mt-5">
+                <p class="text-[11px] font-bold tracking-[0.18em] text-brand">04</p>
+                <h3 class="mt-1 text-sm font-bold lg:text-[15px]">Despliega</h3>
+                <p class="mt-1 text-xs leading-relaxed text-muted lg:mx-auto lg:max-w-37.5">
+                  Pruebo a fondo y lanzo.
+                </p>
+              </div>
+            </li>
+
+            <li class="flex items-start gap-4 text-left lg:block lg:text-center">
+              <span class="relative z-10 grid size-16 shrink-0 place-items-center rounded-full bg-sand text-brand ring-1 ring-brand/10">
+                <span class="icon text-[26px]" aria-hidden="true">monitoring</span>
+              </span>
+              <div class="lg:mt-5">
+                <p class="text-[11px] font-bold tracking-[0.18em] text-brand">05</p>
+                <h3 class="mt-1 text-sm font-bold lg:text-[15px]">Mejora</h3>
+                <p class="mt-1 text-xs leading-relaxed text-muted lg:mx-auto lg:max-w-37.5">
+                  Monitoreo, itero y mejoro.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto" class="mt-2 scroll-mt-24 bg-sand sm:mt-4">
+    <div class="mx-auto w-full max-w-280 px-5 sm:px-8 lg:px-6">
+      <div class="grid gap-10 py-12 sm:py-14 lg:grid-cols-[1.15fr_1fr_auto] lg:items-start lg:gap-12 lg:py-16">
+        <h2 class="max-w-70text-2xl font-extrabold leading-tight sm:text-3xl lg:text-[34px]">
+          Construyamos algo significativo <span class="text-brand">juntos.</span>
+        </h2>
+
+        <ul class="space-y-3.5 text-sm text-ink-soft">
+          <li>
+            <a href="mailto:dev.andrez18@gmail.com" class="inline-flex items-center gap-2.5 transition hover:text-brand">
+              <span class="icon shrink-0 text-[18px] text-ink" aria-hidden="true">mail</span>
+              dev.andrez18@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+573147021433" class="inline-flex items-center gap-2.5 transition hover:text-brand">
+              <span class="icon shrink-0 text-[18px] text-ink" aria-hidden="true">call</span>
+              +57 314 702 1433
+            </a>
+          </li>
+          <li class="inline-flex items-center gap-2.5">
+            <span class="icon shrink-0 text-[18px] text-ink" aria-hidden="true">location_on</span>
+            Medellín, Colombia
+          </li>
+        </ul>
+
+        <div class="lg:justify-self-end">
+          <h3 class="text-sm font-bold">Conectemos</h3>
+          <ul class="mt-4 flex items-center gap-2.5">
+            <li>
+              <a href="https://github.com" target="_blank" rel="noreferrer"
+                class="grid size-10 place-items-center rounded-full border border-ink/15 bg-white/70 text-ink transition hover:border-brand hover:bg-white hover:text-brand">
+                <span class="sr-only">GitHub</span>
+                <svg class="size-4"><use href="/brand-icons.svg#i-github" /></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer"
+                class="grid size-10 place-items-center rounded-full border border-ink/15 bg-white/70 text-ink transition hover:border-brand hover:bg-white hover:text-brand">
+                <span class="sr-only">LinkedIn</span>
+                <svg class="size-4"><use href="/brand-icons.svg#i-linkedin" /></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com" target="_blank" rel="noreferrer"
+                class="grid size-10 place-items-center rounded-full border border-ink/15 bg-white/70 text-ink transition hover:border-brand hover:bg-white hover:text-brand">
+                <span class="sr-only">X</span>
+                <svg class="size-3.5"><use href="/brand-icons.svg#i-x" /></svg>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:dev.andrez18@gmail.com"
+                class="grid size-10 place-items-center rounded-full border border-ink/15 bg-white/70 text-ink transition hover:border-brand hover:bg-white hover:text-brand">
+                <span class="sr-only">Correo</span>
+                <span class="icon text-[18px]" aria-hidden="true">mail</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-ink/10 py-6 text-center text-[11px] text-muted sm:text-xs">
+        <span>© 2026 Andrés Gómez. Todos los derechos reservados. <span class="text-brand" aria-hidden="true">♥</span></span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const menu = document.querySelector('header details')
+    menu?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => menu.removeAttribute('open')))
+  </script>
+</body>
+
+</html>
